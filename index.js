@@ -9,7 +9,8 @@ const person1 = {
     age: 30,
     isEmployed: true,
     sayHello: function(){console.log("Hi! I am Spongebob!")},
-    sayBye: function(){console.log("Goodbye")}
+    sayBye: function(){console.log("Goodbye")},
+    eat: ()=> console.log(" I am eating a Krabby Patty")
 };
 
 const person2 = {
@@ -18,7 +19,8 @@ const person2 = {
     age: 42,
     isEmployed: false,
     sayHello: function(){console.log("Hey I'm Patrick")},
-    sayBye: function(){console.log("Goodbye")}
+    sayBye: function(){console.log("Goodbye")},
+    eat: () => console.log(" I am eating roast beef, chicken and pizza")
 };
 
 console.log(person1.firstName);
